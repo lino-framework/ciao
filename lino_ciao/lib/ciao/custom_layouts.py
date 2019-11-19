@@ -1,0 +1,9 @@
+from lino.api import rt
+
+rt.models.cal.GuestsByEvent.column_names = 'partner role remark workflow_buttons *'
+
+rt.models.countries.Places.detail_layout = """
+name country
+type parent zip_code id
+contacts.PartnersByCity PlacesByPlace
+"""

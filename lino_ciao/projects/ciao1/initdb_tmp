@@ -1,0 +1,2 @@
+django-admin.py prep --noinput --traceback --settings=lino_canti.projects.canti1.settings.memory
+
