@@ -27,7 +27,7 @@ PartnerDetail.contact_box = dd.Panel("""
 # from lino_xl.lib.addresses.mixins import AddressOwner
 # from lino_xl.lib.phones.mixins import ContactDetailsOwner
 
-@dd.python_2_unicode_compatible
+
 class Person(Person):
 
     class Meta(Person.Meta):
