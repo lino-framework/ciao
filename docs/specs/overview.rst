@@ -15,6 +15,19 @@ Lino Ciao Overview
 >>> from lino.api.doctest import *
 
 
+>>> print(analyzer.show_complexity_factors())
+... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
+- 28 plugins
+- 41 models
+- 20 user roles
+- 4 user types
+- 152 views
+- 11 dialog actions
+<BLANKLINE>
+
+
+
+
 >>> rt.show(users.UserTypes)
 ======= =========== ===============
  value   name        text
