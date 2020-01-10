@@ -1,13 +1,10 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2019 Rumma & Ko Ltd
+# Copyright 2019-2020 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 """
 Base Django settings for Lino Ciao applications.
 
 """
-
-from __future__ import print_function
-from __future__ import unicode_literals
 
 from lino.projects.std.settings import *
 from lino.api.ad import _
@@ -51,6 +48,8 @@ class Site(Site):
         yield 'lino_ciao.lib.contacts'
         # yield 'lino_xl.lib.online.users'
         yield 'lino_xl.lib.cal'
+        yield 'lino_xl.lib.calview'
+        yield 'lino.modlib.publisher'
         # yield 'lino_xl.lib.sepa'
         # yield 'lino_xl.lib.extensible'
         # yield 'lino_xl.lib.addresses'
