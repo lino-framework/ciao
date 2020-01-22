@@ -17,7 +17,7 @@ Lino Ciao Overview
 
 >>> print(analyzer.show_complexity_factors())
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
-- 28 plugins
+- 30 plugins
 - 41 models
 - 20 user roles
 - 4 user types
@@ -38,3 +38,24 @@ Lino Ciao Overview
  900     admin       Administrator
 ======= =========== ===============
 <BLANKLINE>
+
+
+>>> rt.login('robin').show_menu()
+... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
+- Contacts : Persons, Organizations, Partner Lists
+- Calendar : My appointments, Overdue appointments, My unconfirmed appointments, My tasks, My guests, My presences, My overdue appointments, Calendar view
+- Office : My Upload files, My Excerpts, My Comments, Recent comments
+- Configure :
+  - System : Users, Site Parameters, Help Texts
+  - Contacts : Organization types, Functions, List Types
+  - Calendar : Calendars, Rooms, Recurring events, Guest roles, Calendar entry types, Recurrency policies, Remote Calendars, Planner rows
+  - Topics : Topics
+  - Office : Library volumes, Upload types, Excerpt Types, Comment Types
+  - Places : Countries, Places
+- Explorer :
+  - System : Authorities, User types, User roles, All dashboard widgets, content types, Data checkers, Data problems
+  - Contacts : Contact Persons, Partners, List memberships
+  - Calendar : Calendar entries, Tasks, Subscriptions, Entry states, Presence states, Task states
+  - Topics : Interests
+  - Office : Upload files, Upload areas, Excerpts, Comments, Mentions
+- Site : About
