@@ -21,7 +21,7 @@ Lino Ciao Overview
 - 41 models
 - 20 user roles
 - 4 user types
-- 152 views
+- 153 views
 - 11 dialog actions
 <BLANKLINE>
 
@@ -43,7 +43,7 @@ Lino Ciao Overview
 >>> rt.login('robin').show_menu()
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
 - Contacts : Persons, Organizations, Partner Lists
-- Calendar : My appointments, Overdue appointments, My unconfirmed appointments, My tasks, My guests, My presences, My overdue appointments, Calendar view
+- Calendar : My appointments, Overdue appointments, My unconfirmed appointments, My tasks, My guests, My presences, My overdue appointments, Calendar
 - Office : My Upload files, My Excerpts, My Comments, Recent comments
 - Configure :
   - System : Users, Site Parameters, Help Texts
