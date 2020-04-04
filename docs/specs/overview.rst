@@ -54,7 +54,7 @@ Lino Ciao Overview
   - Places : Countries, Places
 - Explorer :
   - System : Authorities, User types, User roles, All dashboard widgets, content types, Data checkers, Data problems
-  - Contacts : Contact Persons, Partners, List memberships
+  - Contacts : Contact persons, Partners, List memberships
   - Calendar : Calendar entries, Tasks, Subscriptions, Entry states, Presence states, Task states
   - Topics : Interests
   - Office : Upload files, Upload areas, Excerpts, Comments, Mentions
