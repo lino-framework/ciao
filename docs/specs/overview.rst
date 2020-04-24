@@ -55,7 +55,7 @@ Lino Ciao Overview
 - Explorer :
   - System : Authorities, User types, User roles, All dashboard widgets, content types, Data checkers, Data problems
   - Contacts : Contact persons, Partners, List memberships
-  - Calendar : Calendar entries, Tasks, Subscriptions, Entry states, Presence states, Task states
+  - Calendar : Calendar entries, Tasks, Subscriptions, Entry states, Presence states, Task states, Planner columns, Access classes, Display colors
   - Topics : Interests
   - Office : Upload files, Upload areas, Excerpts, Comments, Mentions
 - Site : About
