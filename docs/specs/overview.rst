@@ -19,7 +19,6 @@ Lino Ciao Overview
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
 - 30 plugins
 - 41 models
-- 20 user roles
 - 4 user types
 - 153 views
 - 11 dialog actions
