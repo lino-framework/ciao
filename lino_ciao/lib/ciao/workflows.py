@@ -9,7 +9,6 @@
 
 # from lino_noi.lib.tickets.workflows import *
 from lino_xl.lib.cal.workflows.voga import *
-# from lino_xl.lib.courses.workflows import *
 # from lino_xl.lib.contacts.roles import ContactsStaff
 
 # from lino.api import dd, rt
@@ -22,4 +21,3 @@ from lino_xl.lib.cal.workflows.voga import *
 EntryStates.took_place.guest_state = GuestStates.present
 EntryStates.cancelled.guest_state = GuestStates.excused
 # EntryStates.missed.guest_state = GuestStates.missing
-
