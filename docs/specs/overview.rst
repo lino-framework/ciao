@@ -20,7 +20,7 @@ Lino Ciao Overview
 - 30 plugins
 - 41 models
 - 4 user types
-- 153 views
+- 154 views
 - 11 dialog actions
 <BLANKLINE>
 
