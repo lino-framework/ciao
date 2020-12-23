@@ -18,9 +18,9 @@ Lino Ciao Overview
 >>> print(analyzer.show_complexity_factors())
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
 - 30 plugins
-- 41 models
+- 42 models
 - 4 user types
-- 154 views
+- 155 views
 - 11 dialog actions
 <BLANKLINE>
 
@@ -56,5 +56,5 @@ Lino Ciao Overview
   - Contacts : Contact persons, Partners, List memberships
   - Calendar : Calendar entries, Tasks, Subscriptions, Entry states, Presence states, Task states, Planner columns, Access classes, Display colors
   - Topics : Interests
-  - Office : Upload files, Upload areas, Excerpts, Comments, Mentions
+  - Office : Upload files, Upload areas, Excerpts, Comments, Mentions, Reactions
 - Site : About
