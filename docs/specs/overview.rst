@@ -39,7 +39,7 @@ Lino Ciao Overview
 <BLANKLINE>
 
 
->>> rt.login('robin').show_menu()
+>>> show_menu('robin')
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
 - Contacts : Persons, Organizations, Partner Lists
 - Calendar : My appointments, Overdue appointments, My unconfirmed appointments, My tasks, My guests, My presences, My overdue appointments, Calendar
