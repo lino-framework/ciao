@@ -57,4 +57,4 @@ Lino Ciao Overview
   - Calendar : Calendar entries, Tasks, Subscriptions, Entry states, Presence states, Task states, Planner columns, Access classes, Display colors
   - Topics : Interests
   - Office : Upload files, Upload areas, Excerpts, Comments, Mentions, Reactions
-- Site : About
+- Site : About, User sessions
